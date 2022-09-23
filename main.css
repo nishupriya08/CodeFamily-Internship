@@ -1,0 +1,26 @@
+.table {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    font-family: 'Quicksand' sans-serif;
+    overflow: hidden;
+    font-weight: bold;
+  }
+  
+  .table thead th {
+    background-color: #1dc9cf;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px 20px;
+  }
+  
+  .table tbody tr:nth-of-type(even) {
+    background-color: #eeeeee;
+  }
+  
+  .table tbody tr:last-of-type {
+    border-bottom: 4px solid #1fcaa8;
+  }
